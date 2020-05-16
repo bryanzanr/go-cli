@@ -27,9 +27,9 @@ The application is a simple ride hailing scenario application. The assumptions t
 More detailed information can be found on the program source code.
 
 Design Decision:
-* Create main program (Sources/apps.swift) which processed every input and generate output. 
-* Create base map (Sources/maps.swift) which represented as rows (X) and collumn (Y). 
-* Create object (Sources/peoples.swift) which consist of user and drivers.  
+* Create main program (MySingle.playground) which processed every input and generate output. 
+* Create base map (Grid Class) which represented as rows (X) and collumn (Y). 
+* Create object (People Class) which consist of user and drivers.  
 * The distance will be generated using Manhattan's Distance Algorithm. 
 * Nearest driver will be generated using Straight Lines Distance Algorithm. 
 * Every variable is done in Pastel and Camel case. 
@@ -49,15 +49,15 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites (How the program was set up)
 
 1. Navigate to the directory where is the root of this project folder (.playground files).
-2. Still in the directory where is the root of this project, run the app by double click the files.
+2. Still in the directory where is the root of this project, run the app by click the play button in the files.
 
-    Most of the source code are stored in `Sources/`. 
+    Most of the source code are stored in `MySingle.playground` and resources (if any) are stored in `Resources/`. 
 
 3. The app is now running! To check that the app is actually running,
-try to send an input file to it, which consist map size, user coordinates, 
-number of drivers and their coordinates.
+try to send an action like setting up map size, user coordinates, 
+number of drivers, and their coordinates.
 
-### Installing (How to run the program)
+### Installing (How the program was run)
 
 1. Make sure you already installed the latest Xcode.
 2. You can also run through Swift Playground.
